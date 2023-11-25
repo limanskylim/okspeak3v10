@@ -1,0 +1,54 @@
+[
+    { "eng": "black", "tr": "чёрный", "help": "blæk" },
+    { "eng": "white", "tr": "белый", "help": "waɪt" },
+    {
+        "eng": "This cat is black.",
+        "tr": "Этот кот (есть) чёрный.",
+        "help": ""
+    },
+    {
+        "eng": "This dog is white.",
+        "tr": "Эта собака (есть) белая.",
+        "help": ""
+    },
+    { "eng": "big", "tr": "большой", "help": "bɪɡ" },
+    { "eng": "small", "tr": "маленький", "help": "smɔl" },
+    { "eng": "This house is big.", "tr": "Этот дом большой.", "help": "" },
+    {
+        "eng": "This mouse is small.",
+        "tr": "Эта мышь (есть) маленькая.",
+        "help": ""
+    },
+    { "eng": "green", "tr": "зелёный", "help": "ɡrin" },
+    { "eng": "red", "tr": "красный", "help": "rɛd" },
+    {
+        "eng": "This apple is red.",
+        "tr": "Это яблоко (есть) красное.",
+        "help": ""
+    },
+    { "eng": "This tree is green.", "tr": "Это дерево зелёное.", "help": "" },
+    { "eng": "blue", "tr": "синий", "help": "blu" },
+    { "eng": "yellow", "tr": "жёлтый", "help": "ˈjɛloʊ" },
+    {
+        "eng": "This orange is yellow.",
+        "tr": "Этот апельсин желтый.",
+        "help": ""
+    },
+    { "eng": "This car is blue.", "tr": "Эта машина синяя.", "help": "" },
+    {
+        "eng": "That cat is black.",
+        "tr": "Та кошка (есть) черная.",
+        "help": ""
+    },
+    { "eng": "That dog is white.", "tr": "Та собака — белая.", "help": "" },
+    { "eng": "That house is big.", "tr": "Тот дом большой.", "help": "" },
+    { "eng": "That mouse is small.", "tr": "Та мышь маленькая.", "help": "" },
+    { "eng": "That apple is red.", "tr": "То яблоко красное.", "help": "" },
+    { "eng": "That tree is green.", "tr": "ТО дерево зеленое.", "help": "" },
+    {
+        "eng": "That orange is yellow.",
+        "tr": "Тот апельсин желтый.",
+        "help": ""
+    },
+    { "eng": "That car is blue.", "tr": "Та машина синяя.", "help": "" }
+]

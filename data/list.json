@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "name": "REVIEW",
+        "dataUrl": null
+    },
+    {
+        "id": 5001,
+        "name": "Red Murphi #01-1",
+        "dataUrl": "red-01-1.json"
+    },
+    {
+        "id": 5002,
+        "name": "Red Murphi #01-2",
+        "dataUrl": "red-01-2.json"
+    },
+    {
+        "id": 5003,
+        "name": "Red Murphi #01-3",
+        "dataUrl": "red-01-3.json"
+    },
+    {
+        "id": 1,
+        "name": "This & that 01",
+        "dataUrl": "01.json"
+    },
+    {
+        "id": 2,
+        "name": "This & that 02",
+        "dataUrl": "02.json"
+    },
+    {
+        "id": 3,
+        "name": "This & these",
+        "dataUrl": "03.json"
+    },
+    {
+        "id": 4,
+        "name": "That & those",
+        "dataUrl": "04.json"
+    }
+]

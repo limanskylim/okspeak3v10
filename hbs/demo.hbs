@@ -1,0 +1,20 @@
+<div class='demo-lesson-box'>
+    <h2 class='lesson-title'>
+        <span>{{name}}</span>
+        <a onclick='goBack()'> <span class='exit'>✖</span></a>
+
+    </h2>
+    <div id='demo-data' data-phrases='{{phrases}}' style='display:none'></div>
+
+    <div id='phrases' class='phrases'></div>
+
+    <script>
+        function goBack() { // Используем метод go(-1) объекта history const
+        window.location.href = '/lessons?userId=' +
+        {{userId}}
+        }
+
+    </script>
+
+    <script type='module' src='/js/demo.js'></script>
+</div>

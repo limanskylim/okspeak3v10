@@ -1,0 +1,76 @@
+<div class='overlay-form'>
+    <!-- Ваша форма и содержимое здесь -->
+    <form>
+        <!-- элементы формы -->
+        <label for='eng'>English</label>
+        <input
+            id='eng'
+            class='overlay-form-input'
+            type='text'
+            value='English'
+        />
+        <label for='tr'>Translation</label>
+        <input
+            id='tr'
+            class='overlay-form-input'
+            type='text'
+            type='text'
+            value='Русский'
+        />
+        <label for='help'>Help</label>
+        <input
+            id='help'
+            class='overlay-form-input'
+            type='text'
+            type='text'
+            value='some help'
+        />
+        <div class='form-buttons'>
+            <input class='overlay-form-input' type='button' value='Cancel' />
+            <input
+                id='btn-submit'
+                class='overlay-form-input'
+                type='submit'
+                value='OK'
+            />
+        </div>
+
+    </form>
+</div>
+
+<div class='lesson-body lesson-body-hidden'>
+    <h2 class='lesson-title'>
+        <span>{{name}}</span>
+        <a onclick='goBack()'><span class='exit'>✖</span></a>
+
+    </h2>
+    <div
+        id='data'
+        data-phrases='{{phrases}}'
+        data-count='{{count}}'
+        data-mistakes='{{mistakes}}'
+        style='display:none'
+    ></div>
+
+    <div class='info'>
+        <div>Translate into English!</div>
+        <div id='left' class='left'>5</div>
+    </div>
+    <div class='translation'></div>
+    <div class='help hidden'>help</div>
+
+    <div class='english'>- - - - -</div>
+    <div class='buttons'>
+        <button class='btn wrong'>➖</button>
+        <button class='btn ok'>➕</button>
+    </div>
+
+</div>
+
+<script type='text/javascript'>
+    function goBack() { window.location.href = '/lessons?userId=' +
+    {{userId}}; }
+
+</script>
+
+<script type='module' src='/js/lesson.js'></script>

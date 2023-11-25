@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "Alina",
+        "secret": "A1111"
+    },
+    {
+        "id": 2,
+        "name": "Olga",
+        "secret": "O3333"
+    },
+    {
+        "id": 3,
+        "name": "Oksana",
+        "secret": "USA0001"
+    },
+    {
+        "id": 4,
+        "name": "Zarina",
+        "secret": "ZaraUSA"
+    },
+    {
+        "id": 5,
+        "name": "Olga",
+        "secret": "O2222"
+    },
+    {
+        "id": 100,
+        "name": "Mr Limansky",
+        "secret": "lim1959"
+    },
+    {
+        "id": 101,
+        "name": "Sovaby team",
+        "secret": "limsova"
+    },
+    {
+        "id": 102,
+        "name": "Oksana",
+        "secret": "limoksana"
+    }
+]

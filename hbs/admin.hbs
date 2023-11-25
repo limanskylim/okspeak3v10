@@ -1,0 +1,68 @@
+<div id='admin-page' class='admin-page'>
+    
+    <h1>Панель администратора</h1>
+    <form action="/admin/download" method="get">
+        <label for="fileName">Имя файла:</label>
+        <input type="text" id="fileName" name="fileName">
+        <button type="submit">Скачать файл</button>
+    </form>
+    <div class="admin-actions">
+        <button id="show-file-box" class="admin-actions-btn">Создать файл</button>
+        <button id="show-lesson-box" class="admin-actions-btn">Создать урок</button>
+    </div>
+    {{!-- поле для создания файла --}}
+    <div class="make-file-box" style="display:none">
+        <h2>Создать файл</h2>
+        <input
+            id='mf-url'
+            class='form-input'
+            type='text'
+            placeholder='file path url'
+        />
+        
+        <div><textarea id="mf-file-content"></textarea></div>   
+        
+        <div><input id='mf-make-file-ok' type='button' value='OK' /></div>
+    
+    </div>
+
+    {{!-- поле для создания урока --}}
+    <div class="make-lesson-box" style="display:none">
+        <h2>Создать новый урок</h2>
+        {{!-- вводить только имя файла (t012-3.json) --}}
+        <input
+            id='ml-url'
+            class='form-input'
+            type='text'
+            placeholder='only file name!'
+            
+        />
+        <input
+            id='ml-id'
+            class='form-input'
+            type='text'
+            placeholder='lesson id'
+        />
+
+        <input
+            id='ml-name'
+            class='form-input'
+            type='text'
+            placeholder='lesson Name'
+        />
+
+        <input
+            id='ml-targetId'
+            class='form-input'
+            type='text'
+            placeholder='index for insert'
+            
+        />
+        
+        <div><textarea id="ml-lesson-content"></textarea></div>   
+        
+        <div><input id='ml-make-lesson-ok' type='button' value='OK' /></div>
+    
+    </div>
+
+<script type='module' src='/js/admin.js'></script>

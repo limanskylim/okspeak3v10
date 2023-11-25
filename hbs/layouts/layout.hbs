@@ -1,0 +1,67 @@
+<html lang='en'>
+    <head>
+        <meta charset='UTF-8' />
+        <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+        <title>{{title}}</title>
+        <link id='link-css' rel='stylesheet' href='/css/style.css' />
+    </head>
+    <body class={{pageClass}}>
+        <div class='menu'>
+            <div class='logo-voices'>
+                <div class='logo'>🧔 Lim Program</div>
+                <div class='voices-box' style='display:none'>
+
+                    <div class='menu-voices'>
+                        <div class='menu-voices-btn'>⚙</div>
+                        <div class='voice-setting-box voice-setting-box-hidden'>
+                            <div class='close'>✖</div>
+                            <div class='volume-box'>
+                                <label for='volumeSlider'>Volume:</label>
+                                <input
+                                    class='slider'
+                                    type='range'
+                                    id='volumeSlider'
+                                    min='0'
+                                    max='100'
+                                    value='70'
+                                />
+                            </div>
+                            <div class='rate-box'>
+                                <label for='rateSlider'>Rate:</label>
+                                <input
+                                    class='slider'
+                                    type='range'
+                                    id='rateSlider'
+                                    min='1'
+                                    max='10'
+                                    value='7'
+                                />
+                            </div>
+
+                            <select id='selectEN' class='select'></select>
+                            <div class='voice-tr-box'>
+                                <input
+                                    class='use-tr-checkbox'
+                                    type='checkbox'
+                                    id='use-tr-voice'
+                                    checked
+                                />
+
+                                <select id='selectTR' class='select'></select>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class='user'>{{welcome}}</div>
+        </div>
+        <div class='body-container'>
+            {{{body}}}
+        </div>
+        <div class='footer'></div>
+
+    </body>
+</html>
