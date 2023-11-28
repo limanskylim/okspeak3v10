@@ -31,6 +31,12 @@
         "result": { "count": 42, "mistakes": 2 }
     },
     {
+        "date": "21.11.2023, 11:28:11",
+        "lessonId": 1,
+
+        "result": { "count": 42, "mistakes": 1 }
+    },
+    {
         "date": "01.11.2023, 16:10:02",
         "lessonId": 5002,
 
@@ -41,6 +47,12 @@
         "lessonId": 2,
 
         "result": { "count": 24, "mistakes": 0 }
+    },
+    {
+        "date": "24.11.2023, 17:22:12",
+        "lessonId": 2,
+
+        "result": { "count": 24, "mistakes": 6 }
     },
     {
         "date": "07.11.2023, 17:19:34",
@@ -73,6 +85,18 @@
         "lessonId": 3,
 
         "result": { "count": 28, "mistakes": 10 }
+    },
+    {
+        "date": "24.11.2023, 10:41:30",
+        "lessonId": 3,
+
+        "result": { "count": 28, "mistakes": 13 }
+    },
+    {
+        "date": "25.11.2023, 12:41:30",
+        "lessonId": 3,
+
+        "result": { "count": 28, "mistakes": 4 }
     },
     {
         "date": "22.11.2023, 17:14:14",

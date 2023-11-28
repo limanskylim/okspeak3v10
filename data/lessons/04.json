@@ -1,1 +1,74 @@
-[{"eng":"that — those","tr":"то — те","help":""},{"eng":"That is a car. Those are cars.","tr":"То — машина. То — автомобили.","help":""},{"eng":"a mouse — mice","tr":"() мышь — мыши","help":""},{"eng":"That is a mouse. Those are mice.","tr":"То — мышь. То — мыши.","help":""},{"eng":"big — small","tr":"большой — маленький","help":""},{"eng":"This is a big house. And those are small houses.","tr":"Это — большой дом. А то — маленькие дома.","help":""},{"eng":"That house is big.","tr":"Тот дом (есть) большой.","help":""},{"eng":"Those houses are small.","tr":"Те домики — маленькие.","help":""},{"eng":"That is a green tree.","tr":"То — зеленое дерево.","help":""},{"eng":"Those are green trees.","tr":"То — зеленые деревья.","help":""},{"eng":"tall","tr":"высокий","help":""},{"eng":"That tree is tall.","tr":"То дерево — высокое.","help":""},{"eng":"Those trees are small.","tr":"Те деревья маленькие.","help":""},{"eng":"a man — men","tr":"() мужчина — мужчины","help":""},{"eng":"strong","tr":"сильный","help":""},{"eng":"That man is strong.","tr":"Тот мужчина сильный.","help":""},{"eng":"Those men are strong.","tr":"Те мужчины сильные.","help":""},{"eng":"a person — people","tr":"() человек — люди","help":""},{"eng":"Who is that person?","tr":"Кто тот человек?","help":""},{"eng":"Who are those people?","tr":"Кто те люди?","help":""},{"eng":"Is that person English?","tr":"Тот человек англичанин?","help":""},{"eng":"German","tr":"немецкий","help":""},{"eng":"Are those people German?","tr":"Те люди немцы?","help":""},{"eng":"Those people aren't German. They are English.","tr":"Те люди не немцы. Они англичане.","help":""},{"eng":"new — old","tr":"новый — старый","help":""},{"eng":"Are those houses new?","tr":"Те домики новые?","help":""},{"eng":"No, those houses aren't new.","tr":"Нет, те домики не новые.","help":""},{"eng":"Those houses are old.","tr":"Те домики старые.","help":""}]
+[
+    { "eng": "that — those", "tr": "то — те", "help": "" },
+    {
+        "eng": "That is a car. Those are cars.",
+        "tr": "То — машина. То — автомобили.",
+        "help": ""
+    },
+    { "eng": "a mouse — mice", "tr": "() мышь — мыши", "help": "" },
+    {
+        "eng": "That is a mouse. Those are mice.",
+        "tr": "То — мышь. То — мыши.",
+        "help": ""
+    },
+    { "eng": "big — small", "tr": "большой — маленький", "help": "" },
+    {
+        "eng": "This is a big house. And those are small houses.",
+        "tr": "Это — большой дом. А то — маленькие дома.",
+        "help": ""
+    },
+    {
+        "eng": "That house is big.",
+        "tr": "Тот дом (есть) большой.",
+        "help": ""
+    },
+    {
+        "eng": "Those houses are small.",
+        "tr": "Те домики — маленькие.",
+        "help": ""
+    },
+    {
+        "eng": "That is a green tree.",
+        "tr": "То — зеленое дерево.",
+        "help": ""
+    },
+    {
+        "eng": "Those are green trees.",
+        "tr": "То — зеленые деревья.",
+        "help": ""
+    },
+    { "eng": "tall", "tr": "высокий", "help": "" },
+    { "eng": "That tree is tall.", "tr": "То дерево — высокое.", "help": "" },
+    {
+        "eng": "Those trees are small.",
+        "tr": "Те деревья маленькие.",
+        "help": ""
+    },
+    { "eng": "a man — men", "tr": "() мужчина — мужчины", "help": "" },
+    { "eng": "strong", "tr": "сильный", "help": "" },
+    { "eng": "That man is strong.", "tr": "Тот мужчина сильный.", "help": "" },
+    { "eng": "Those men are strong.", "tr": "Те мужчины сильные.", "help": "" },
+    { "eng": "a person — people", "tr": "() человек — люди", "help": "" },
+    { "eng": "Who is that person?", "tr": "Кто тот человек?", "help": "" },
+    { "eng": "Who are those people?", "tr": "Кто те люди?", "help": "" },
+    {
+        "eng": "Is that person English?",
+        "tr": "Тот человек англичанин?",
+        "help": ""
+    },
+    { "eng": "German", "tr": "немецкий", "help": "" },
+    { "eng": "Are those people German?", "tr": "Те люди немцы?", "help": "" },
+    {
+        "eng": "Those people aren't German. They are English.",
+        "tr": "Те люди не немцы. Они англичане.",
+        "help": ""
+    },
+    { "eng": "new — old", "tr": "новый — старый", "help": "" },
+    { "eng": "Are those houses new?", "tr": "Те домики новые?", "help": "" },
+    {
+        "eng": "No, those houses aren't new.",
+        "tr": "Нет, те домики не новые.",
+        "help": ""
+    },
+    { "eng": "Those houses are old.", "tr": "Те домики старые.", "help": "" }
+]

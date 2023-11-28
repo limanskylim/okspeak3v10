@@ -714,6 +714,10 @@ form .secret-input {
     background: linear-gradient(to left, #000 20%, #363b3d 50%);
   }
 
+  .list-item.in-progress {
+    background: linear-gradient(to left, #000 20%, #800000 50%);
+  }
+
   .list-item.in-progress.passed {
     background: linear-gradient(to left, #004934 20%, #800000 50%);
   }
